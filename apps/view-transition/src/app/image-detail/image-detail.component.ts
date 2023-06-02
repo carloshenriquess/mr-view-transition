@@ -14,7 +14,10 @@ export class ImageDetailComponent {
   ngZone = inject(NgZone);
 
   onClickImage() {
-    if (!DOCUMENT.startViewTransition) return;
-    DOCUMENT.startViewTransition(() => this.ngZone.run(() => this.router.navigate(['/'])));
+    if (!DOCUMENT.startViewTransition) {
+      this.router.navigate(['/']);
+    } else {
+      DOCUMENT.startViewTransition(() => this.ngZone.run(() => this.router.navigate(['/'])));
+    }
   }
 }
