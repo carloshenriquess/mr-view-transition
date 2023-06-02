@@ -1,0 +1,14 @@
+#image {
+  view-transition-name: image;
+}
+
+::view-transition-group(image) {
+  animation-duration: 190ms;
+  animation-timing-function: ease-in-out;
+}
+
+::view-transition-old(image),
+::view-transition-new(image) {
+  animation: none;
+  mix-blend-mode: normal;
+}

@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { NgOptimizedImage } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'mr-root',
-  templateUrl: './app.component.html',
+  template: '<router-outlet />',
   standalone: true,
-  imports: [NgOptimizedImage],
+  imports: [RouterOutlet],
 })
 export class AppComponent {}

@@ -1,0 +1,22 @@
+#image-text {
+  view-transition-name: image-text;
+}
+
+::view-transition-old(image-text),
+::view-transition-new(image-text) {
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(image-text) {
+  animation: none;
+}
+
+::view-transition-new(image-text) {
+  animation: 190ms ease-in-out both slide-from-top;
+}
+
+@keyframes slide-from-top {
+  from {
+    translate: 0 -50dvh;
+  }
+}
