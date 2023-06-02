@@ -1,11 +1,11 @@
 {
-  "name": "mr-angular-template",
+  "name": "mr-view-transition",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "nx serve angular-template",
-    "build": "nx build angular-template",
-    "lint": "nx lint angular-template --parallel --fix",
+    "dev": "nx serve view-transition",
+    "build": "nx build view-transition",
+    "lint": "nx lint view-transition --parallel --fix",
     "format": "nx format:write"
   },
   "private": true,
