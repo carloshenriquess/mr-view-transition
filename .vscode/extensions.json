@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "angular.ng-template",
+    "nrwl.angular-console",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "aaron-bond.better-comments",
+    "formulahendry.auto-rename-tag",
+    "natewallace.angular2-inline",
+    "editorconfig.editorconfig"
+  ]
+}
